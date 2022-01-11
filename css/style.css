@@ -1,0 +1,541 @@
+body{
+    margin: 0;
+}
+
+.main_block {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/MainBlock_bg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.main_logo{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.main_block__title{
+    margin-top: 15%;
+    margin-left: 50%;
+    font: 600 36px/44px Montserrat;
+    color: white;
+    width: 30%;
+}
+
+.main_block__text{
+    font: 400 18px/22px Montserrat;
+    color: white;
+    margin-left: 50%;
+    width: 30%;
+}
+
+.buttons_block{
+    margin-left: 50%;
+    padding-bottom: 5%;
+}
+
+.main_block__button{
+    height: 50px;
+    width: 200px;
+    margin-top: 3%;
+    margin-right: 5%;
+    font: 700 14px/17px Montserrat;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.blue{
+    background-color: rgba(0, 141, 210, 1);
+    color: white;
+}
+
+.white{
+    color: rgba(0, 141, 210, 1);
+}
+
+.second_block{ 
+    display: flex;
+    justify-content:space-around;
+} 
+
+.second_title_block{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.second_title{
+    position: absolute;
+    z-index: 1;
+    font: 600 28px/34px Montserrat;
+    color: white;
+}
+
+.img_title{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step{
+    width: 20%;
+}
+
+.steps_title{
+    font: 600 20px/25px "Source Code Pro";
+    color: rgba(196, 196, 196, 1);
+}
+
+.step_info{
+    font: 400 20px/25px "Source Code Pro";
+    color: rgba(0, 0, 0, 1);
+}
+
+.second_block_Kalinin{
+    margin-top: 10%;
+    width: 730px;
+    height: 480px;
+}
+
+.stan_spec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second_block_step{
+    width: 35%;
+    margin-left: 10%;
+}
+
+.stan_spec__title{
+    font: 600 28px/34px Montserrat;
+}
+
+.you_can_block{
+    display: flex;
+    
+   /* position: relative;
+   background-image: url("/img/you_can_bg.jpg");
+    background-repeat: no-repeat; */
+}
+
+.you_can_title_block{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.you_can_title{
+    position: absolute;
+    z-index: 1;
+    font: 600 28px/34px Montserrat;
+    color: white;
+}
+
+.you_can_title_2{
+    z-index: 1;
+    font: 600 28px/34px Montserrat;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 40%;
+}
+
+.bg{
+    position: relative;
+    z-index: -1;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.you_can_block__step{
+    position: absolute; 
+    width: 25%;
+    z-index: 1;
+    margin-left: 55%;
+}
+
+.laptop{
+    position: absolute;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 250px;
+    margin-left: -1300px;
+
+}
+
+.step_info_white{
+    font: 400 20px/25px "Source Code Pro";
+    color: white;
+}
+
+.you_can_block_2{
+    display: flex;
+    flex-direction: column;
+}
+.you_can_bg_2{
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.you_can_block_2__step{
+
+    position: absolute; 
+    width: 425px;
+    z-index: 1;
+    margin-left: 200px;
+}
+
+.iphone{
+    align-items: center;
+    margin-left: 900px;
+    margin-top: 190px;
+}
+
+.first{
+    display: flex;
+    position: absolute;
+
+}
+
+.you_can_block_2__step2{
+    position: relative;
+    width: 450px;
+    margin-top: -300px;
+    margin-left: 850px;
+}
+
+.zayavka{
+    margin-top: -540px;
+    margin-left: 300px;
+    
+}
+
+.you_can_title_second{
+    color: black;
+    width: 309px;
+    text-align: center;
+    z-index: 1;
+    font: 600 28px/34px Montserrat;
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.wish_title_block{
+    margin-top: 45px;
+    margin-bottom: 65px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.wish_title{
+    position: absolute;
+    z-index: 1;
+    font: 600 28px/34px Montserrat;
+    color: white;
+    width: 820px;
+}
+
+.wish_block{
+    padding-bottom: 5%;
+    background-color: #23242B;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block_with_ph{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.wish_block__step {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.wish_block__step.second{
+    margin-left: 0;
+    margin-right: 5%;
+}
+
+.events_title_block{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.events_title{
+    position: absolute;
+    z-index: 1;
+    font: 600 28px/34px Montserrat;
+    color: white;
+}
+
+.events_block{
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.carusel {
+    position: relative;
+    padding: 3% 40px 5%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.arrow {
+    z-index: 1;
+    content: '';
+    background: white;
+    border-radius: 23px;
+    border: 0;
+    font-size: 40px;
+    padding-left: 10px;
+    display: flex;
+    color: gray;
+    width: 46px;
+    height: 46px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.arrow.act {
+    background: white;
+    color: white;   
+    cursor: pointer;
+    outline: none;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.gallery__buttons_block{
+    position: absolute;
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+}
+
+.arrow.prev { 
+    margin-left: -2%;
+}
+
+.arrow.next { 
+    margin-right: -2%;
+}
+
+.gallery {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1040px;
+    display: flex;
+    align-items: center;
+}
+
+.first_slide.act{
+    display: flex;
+    width: 1040px;
+    height: 436px; 
+    flex-grow: 0;
+    flex-shrink: 0;
+    transform: translateX(0);
+
+}
+
+.first_slide {
+    transform: translateX(-150%);
+    display: none;
+}
+
+
+.second_slide{
+    display: flex;
+    width: 1040px;
+    height: 436px; 
+    flex-grow: 0;
+    flex-shrink: 0;
+    transform: translateX(0);
+    display: none;
+}
+
+.second_slide.act{
+    display: flex;
+    transform: translateX(0);
+}
+.text_slide{
+    margin: auto;
+    margin-left: 40px;
+}
+
+.gallery_text{
+    color: rgba(68, 68, 68, 1);
+    font: 600 16px/20px Montserrat;
+}
+
+.gallery_title{
+    font: 600 28px/34px Montserrat;
+}
+
+.text_block{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.feedback_title_block{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.feedback_title{
+    position: absolute;
+    z-index: 1;
+    font: 600 28px/34px Montserrat;
+    color: white;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #23242B;
+}
+.contacts_form{
+    width: 540px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.form_text{
+    font: 600 20px/24px Montserrat;
+    text-align: center;
+    margin-top: 50px;
+    width: 350px;
+    
+}
+
+.form_title{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    font: 600 28px/34px Montserrat;
+    color: white;
+}
+
+.form_logo{
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.format{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__steps_title{
+    align-self: flex-start;
+    font: 600 20px/25px "Source Code Pro";
+    color: rgba(196, 196, 196, 1);
+}
+
+.form__steps_title.close{
+    align-self: flex-end;
+}
+
+.input{
+    width: 350px;
+    height: 60px;
+    font: 600 18px/22px Montserrat;
+    margin-top: 40px;
+    padding-left: 20px;
+    border: 2px solid #444444;
+}
+
+.form_submit{
+    background-color: #008DD2;
+    border-radius: 30px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font: 700 18px/22px Montserrat;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.review{
+    width: 250px;
+}
+.review__title{
+    font: 400 28px/34px Montserrat;
+}
+
+.review__text{
+    font: 400 18px/22px Montserrat;
+}
+
+.ava{
+    border-radius: 50%;
+    width: 204px;
+    height: 204px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
