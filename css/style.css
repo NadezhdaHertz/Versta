@@ -125,7 +125,9 @@ body{
 
 .you_can_block{
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+
    /* position: relative;
    background-image: url("/img/you_can_bg.jpg");
     background-repeat: no-repeat; */
@@ -160,6 +162,9 @@ body{
 }
 
 .bg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     position: relative;
     z-index: -1;
     margin-left: auto; 
@@ -167,10 +172,14 @@ body{
 }
 
 .you_can_block__step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute; 
     width: 25%;
     z-index: 1;
-    margin-left: 55%;
+    margin-left: 40%;
+
 }
 
 .laptop{
@@ -178,7 +187,7 @@ body{
     flex-grow: 0;
     flex-shrink: 0;
     margin-top: 250px;
-    margin-left: -1300px;
+    margin-left: -45%;
 
 }
 
@@ -189,25 +198,29 @@ body{
 
 .you_can_block_2{
     display: flex;
+    align-items: center;
+    
     flex-direction: column;
 }
 .you_can_bg_2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     z-index: -1;
     margin-left: auto;
     margin-right: auto;
 }
 
 .you_can_block_2__step{
-
     position: absolute; 
+    margin-left: -160%;
     width: 425px;
     z-index: 1;
-    margin-left: 200px;
 }
 
 .iphone{
     align-items: center;
-    margin-left: 900px;
+    margin-left: 140%;
     margin-top: 190px;
 }
 
@@ -221,12 +234,12 @@ body{
     position: relative;
     width: 450px;
     margin-top: -300px;
-    margin-left: 850px;
+    margin-left: 75%;
 }
 
 .zayavka{
     margin-top: -540px;
-    margin-left: 300px;
+    margin-left: -50%;
     
 }
 
