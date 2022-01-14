@@ -1,3 +1,7 @@
+html{
+    width: 100%;
+}
+
 body{
     margin: 0;
 }
@@ -107,7 +111,7 @@ body{
 .stan_spec{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .second_block_step{
@@ -537,5 +541,40 @@ body{
     width: 204px;
     height: 204px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
+.present_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.present_img{
+    width: 730px;
+    height: 480px;
+    margin-left: -10%;
+    
+}
+
+.footer{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    display: flex;
+    background-color: #23242B;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.versta{
+    margin-left: 20%;
+}
+
+.footer_contacts_block{
+    padding-right: 10%;
+    display: flex;
+}
+
+.insta{
+    margin-left: 50%;
 }
