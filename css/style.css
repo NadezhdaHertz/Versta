@@ -147,6 +147,7 @@ body{
 
 @media screen and (min-width: 1150px) {
     
+
 .you_can_block{
     display: flex;
     align-items: center;
@@ -260,17 +261,17 @@ body{
 }
 
 
-
 }
 .wish_title_block{
-    margin-top: 45px;
-    margin-bottom: 65px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: fit-content;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 
 }
 
@@ -279,6 +280,7 @@ body{
     z-index: 1;
     font: 600 28px/34px Montserrat;
     color: white;
+    width: 90%;
 /*    width: 820px; */
 }
 
@@ -350,19 +352,21 @@ body{
     border: 0;
     font-size: 40px;
     padding-left: 10px;
-    display: flex;
     color: gray;
     width: 46px;
     height: 46px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    display: flex;
 }
 
 
 .arrow.act {
     background: white;
-    color: white;   
+    color: pink;   
     cursor: pointer;
     outline: none;
+
 }
 
 .arrow:hover{
@@ -372,32 +376,30 @@ body{
 .gallery__buttons_block{
     position: absolute;
     display: flex;
- /*   width: 1040px; */
     justify-content: space-between;
 }
 
 .arrow.prev { 
-    margin-left: -2%;
+    justify-self: flex-start;
+   
 }
 
 .arrow.next { 
-    margin-right: -2%;
+    margin-left: -1%;
 }
 
 .gallery {
     overflow: hidden;
-    background-color: white;
+    background-color: pink;
     border-radius: 30px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  /*  width: 1040px; */
+    width: 55%;
     display: flex;
     align-items: center;
 }
 
 .first_slide.act{
     display: flex;
-/*    width: 1040px; */
-    height: 436px; 
     flex-grow: 0;
     flex-shrink: 0;
     transform: translateX(0);
@@ -412,18 +414,16 @@ body{
 
 .second_slide{
     display: flex;
-/*    width: 1040px; */
-    height: 436px; 
     flex-grow: 0;
     flex-shrink: 0;
-    transform: translateX(0);
-    display: none;
+    background-color: #23242B;
 }
 
 .second_slide.act{
-    display: flex;
-    transform: translateX(0);
+    transform: translateX(0%);
+    background-color: #23242B;
 }
+
 .text_slide{
     margin: auto;
     margin-left: 40px;
@@ -441,6 +441,8 @@ body{
 .text_block{
     margin-left: 50px;
     margin-top: 50px;
+    width: 10%;
+    height: fit-content;
 }
 
 .feedback_title_block{
@@ -471,7 +473,7 @@ body{
 }
 .contacts_form{
  /*   width: 540px; */
-    height: 500px;
+    padding: 10%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -484,13 +486,12 @@ body{
     font: 600 20px/24px Montserrat;
     text-align: center;
     margin-top: 50px;
-    width: 20%;
     
 }
 
 .form_title{
-    margin-top: 90px;
-    margin-bottom: 80px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     font: 600 28px/34px Montserrat;
     color: white;
 }
@@ -518,23 +519,24 @@ body{
 }
 
 .input{
-    width: 20%;
-    height: 60px;
+    width: 70%;
     font: 600 18px/22px Montserrat;
-    margin-top: 40px;
-    padding-left: 20px;
+    margin-top: 5%;
+    padding: 3%;
     border: 2px solid #444444;
+    align-self: center;
 }
 
 .form_submit{
+    align-self: center;
     background-color: #008DD2;
     border-radius: 30px;
-    width: 20%;
-    height: 60px;
+    padding: 10%;
+    margin-left: -10%;  
     color: white;
     font: 700 18px/22px Montserrat;
     border: none;
-    margin-top: 50px;
+    margin-top: 20%;
     cursor: pointer;
 }
 
@@ -601,6 +603,9 @@ body{
 
 
 @media screen and (max-width: 1150px) {
+    html{
+        width: 200%;
+    }
     .you_can_block{
         display: none;
     }
@@ -612,7 +617,7 @@ body{
     .you_can_block_tablet{
         margin-top: 10%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .step{
@@ -651,15 +656,13 @@ body{
     
     }
     
-
-    
     .you_can_title_2{
         z-index: 1;
         font: 600 28px/34px Montserrat;
         color: black;
         text-align: center;
         margin-top: -15%;
-        margin-bottom: 40%; 
+        margin-bottom: 20%; 
     }
 
     
@@ -716,7 +719,7 @@ body{
         font: 600 28px/34px Montserrat;
         text-align: center;
         margin-top: -15%;
-        margin-bottom: 40%;
+        margin-bottom: 20%;
     }
 }
 
