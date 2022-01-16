@@ -1,9 +1,10 @@
 html{
-    width: 100%;
+    width: auto;
 }
 
 body{
     margin: 0;
+    width: auto;
 }
 
 .you_can_block_tablet{
@@ -108,8 +109,6 @@ body{
 
 .second_block_Kalinin{
     margin-top: 10%;
-    width: 730px;
-    height: 480px;
 }
 
 .stan_spec{
@@ -252,7 +251,6 @@ body{
 
 .you_can_title_second{
     color: black;
-    width: 309px;
     text-align: center;
     z-index: 1;
     font: 600 28px/34px Montserrat;
@@ -281,7 +279,7 @@ body{
     z-index: 1;
     font: 600 28px/34px Montserrat;
     color: white;
-    width: 820px;
+/*    width: 820px; */
 }
 
 .wish_block{
@@ -374,7 +372,7 @@ body{
 .gallery__buttons_block{
     position: absolute;
     display: flex;
-    width: 1040px;
+ /*   width: 1040px; */
     justify-content: space-between;
 }
 
@@ -391,14 +389,14 @@ body{
     background-color: white;
     border-radius: 30px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 1040px;
+  /*  width: 1040px; */
     display: flex;
     align-items: center;
 }
 
 .first_slide.act{
     display: flex;
-    width: 1040px;
+/*    width: 1040px; */
     height: 436px; 
     flex-grow: 0;
     flex-shrink: 0;
@@ -414,7 +412,7 @@ body{
 
 .second_slide{
     display: flex;
-    width: 1040px;
+/*    width: 1040px; */
     height: 436px; 
     flex-grow: 0;
     flex-shrink: 0;
@@ -472,7 +470,7 @@ body{
     background-color: #23242B;
 }
 .contacts_form{
-    width: 540px;
+ /*   width: 540px; */
     height: 500px;
     background-color: white;
     display: flex;
@@ -486,7 +484,7 @@ body{
     font: 600 20px/24px Montserrat;
     text-align: center;
     margin-top: 50px;
-    width: 350px;
+    width: 20%;
     
 }
 
@@ -520,7 +518,7 @@ body{
 }
 
 .input{
-    width: 350px;
+    width: 20%;
     height: 60px;
     font: 600 18px/22px Montserrat;
     margin-top: 40px;
@@ -531,7 +529,7 @@ body{
 .form_submit{
     background-color: #008DD2;
     border-radius: 30px;
-    width: 250px;
+    width: 20%;
     height: 60px;
     color: white;
     font: 700 18px/22px Montserrat;
@@ -549,7 +547,7 @@ body{
 }
 
 .review{
-    width: 250px;
+    width: 20%;
 }
 .review__title{
     font: 400 28px/34px Montserrat;
@@ -561,8 +559,7 @@ body{
 
 .ava{
     border-radius: 50%;
-    width: 204px;
-    height: 204px;
+    width: 30%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -574,7 +571,7 @@ body{
 }
 
 .present_img{
-    width: 730px;
+ /*   width: 730px; */
     height: 480px;
     margin-left: -10%;
     
@@ -613,13 +610,20 @@ body{
     }
 
     .you_can_block_tablet{
+        margin-top: 10%;
         display: flex;
+        justify-content: space-between;
     }
 
     .step{
         width: 20%;
     }
     
+    .step_info_white{
+        font: 400 20px/25px "Source Code Pro";
+        color: white;
+    }
+
     .steps_title{
         font: 600 20px/25px "Source Code Pro";
         color: rgba(196, 196, 196, 1);
@@ -667,7 +671,7 @@ body{
     }
     
     .you_can_block__step{
-        width: 425px;
+        width: 30%;
         z-index: 1;
         margin-top: 0;
         margin-left: 0;
@@ -676,14 +680,13 @@ body{
     .you_can_block_2__step{
         margin-left: 0;
         margin-top: 0;
-        width:425px;
+        width:30%;
         z-index: 1;
-        display: none;
 
     }
     
     .you_can_block_2__step2{
-        width: 425px;
+        width: 30%;
         margin-top: 0;
         margin-left: 0;
         z-index: 1;
@@ -706,14 +709,28 @@ body{
         margin-left: 0;
     
     }
-    
+
     .you_can_title_second{
         color: black;
-        width: 309px;
         z-index: 1;
         font: 600 28px/34px Montserrat;
         text-align: center;
         margin-top: -15%;
         margin-bottom: 40%;
     }
+}
+
+
+.creators_block{
+    padding-top: 1%;
+    display: flex;
+    background-color: #23242B;
+    align-items: center;
+    flex-direction: column;    
+}
+.creators{
+    font: 600 20px/25px Montserrat;
+    color: white;
+    margin: 0;
+    margin-bottom: 1%;
 }
