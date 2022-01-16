@@ -6,6 +6,10 @@ body{
     margin: 0;
 }
 
+.you_can_block_tablet{
+    display: none;
+}
+
 .main_block {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/MainBlock_bg.png") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -123,14 +127,11 @@ body{
     font: 600 28px/34px Montserrat;
 }
 
-.you_can_block{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-   /* position: relative;
-   background-image: url("/img/you_can_bg.jpg");
-    background-repeat: no-repeat; */
+.you_can_title{
+    position: absolute;
+    z-index: 1;
+    font: 600 28px/34px Montserrat;
+    color: white;
 }
 
 .you_can_title_block{
@@ -145,11 +146,25 @@ body{
 
 }
 
-.you_can_title{
+@media screen and (min-width: 1150px) {
+    
+.you_can_block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+   /* position: relative;
+   background-image: url("/img/you_can_bg.jpg");
+    background-repeat: no-repeat; */
+}
+
+.first_step{
     position: absolute;
-    z-index: 1;
-    font: 600 28px/34px Montserrat;
-    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+
 }
 
 .you_can_title_2{
@@ -157,38 +172,24 @@ body{
     font: 600 28px/34px Montserrat;
     color: white;
     text-align: center;
-    margin-top: 20%;
-    margin-bottom: 40%;
+    margin-top: -15%;
+    margin-bottom: 40%; 
 }
 
 .bg{
     display: flex;
     justify-content: center;
     width: 100%;
-    position: relative;
     z-index: -1;
     margin-left: auto; 
     margin-right: auto;
 }
 
-.you_can_block__step{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute; 
-    width: 25%;
-    z-index: 1;
-    margin-left: 40%;
-
-}
-
 .laptop{
-    position: absolute;
+    align-items: center;
     flex-grow: 0;
     flex-shrink: 0;
-    margin-top: 250px;
-    margin-left: -45%;
-
+    margin-left: -90%;
 }
 
 .step_info_white{
@@ -199,7 +200,6 @@ body{
 .you_can_block_2{
     display: flex;
     align-items: center;
-    
     flex-direction: column;
 }
 .you_can_bg_2{
@@ -211,17 +211,32 @@ body{
     margin-right: auto;
 }
 
+.you_can_block__step{
+    position: absolute; 
+    width: 425px;
+    z-index: 1;
+    margin-left: 100%;
+    margin-top: -12%;
+}
+
 .you_can_block_2__step{
     position: absolute; 
     margin-left: -160%;
-    width: 425px;
+    margin-top: 55%;
+    width:425px;
     z-index: 1;
+}
+
+.you_can_block_2__step2{
+    width: 425px;
+    margin-top: -75%;
+    margin-left: 75%;
 }
 
 .iphone{
     align-items: center;
     margin-left: 140%;
-    margin-top: 190px;
+    margin-top: 100%;
 }
 
 .first{
@@ -229,18 +244,10 @@ body{
     position: absolute;
 
 }
-
-.you_can_block_2__step2{
-    position: relative;
-    width: 450px;
-    margin-top: -300px;
-    margin-left: 75%;
-}
-
 .zayavka{
-    margin-top: -540px;
+    margin-top: -120%;
     margin-left: -50%;
-    
+
 }
 
 .you_can_title_second{
@@ -254,6 +261,9 @@ body{
     margin-bottom: 150px;
 }
 
+
+
+}
 .wish_title_block{
     margin-top: 45px;
     margin-bottom: 65px;
@@ -590,4 +600,120 @@ body{
 
 .insta{
     margin-left: 50%;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .you_can_block{
+        display: none;
+    }
+    
+    .you_can_block_2{
+        display: none;
+    }
+
+    .you_can_block_tablet{
+        display: flex;
+    }
+
+    .step{
+        width: 20%;
+    }
+    
+    .steps_title{
+        font: 600 20px/25px "Source Code Pro";
+        color: rgba(196, 196, 196, 1);
+    }
+    
+    .step_info{
+        font: 400 20px/25px "Source Code Pro";
+        color: rgba(0, 0, 0, 1);
+    }
+    
+    .second_block_step{
+        width: 35%;
+        margin-left: 0;
+    }
+    
+    .stan_spec__title{
+        font: 600 28px/34px Montserrat;
+    }
+    
+    .first_step{
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 250px;
+    
+    }
+    
+
+    
+    .you_can_title_2{
+        z-index: 1;
+        font: 600 28px/34px Montserrat;
+        color: black;
+        text-align: center;
+        margin-top: -15%;
+        margin-bottom: 40%; 
+    }
+
+    
+    .laptop{
+        align-items: center;
+        flex-grow: 0;
+        flex-shrink: 0;
+        margin-left: 0;
+    }
+    
+    .you_can_block__step{
+        width: 425px;
+        z-index: 1;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    .you_can_block_2__step{
+        margin-left: 0;
+        margin-top: 0;
+        width:425px;
+        z-index: 1;
+        display: none;
+
+    }
+    
+    .you_can_block_2__step2{
+        width: 425px;
+        margin-top: 0;
+        margin-left: 0;
+        z-index: 1;
+    }
+    
+    .iphone{
+        align-items: center;
+        margin-left: 0;
+        margin-top: 0;
+        display: none;
+    }
+    
+    .first{
+        display: none;
+        display: flex;
+    
+    }
+    .zayavka{
+        margin-top: 0;
+        margin-left: 0;
+    
+    }
+    
+    .you_can_title_second{
+        color: black;
+        width: 309px;
+        z-index: 1;
+        font: 600 28px/34px Montserrat;
+        text-align: center;
+        margin-top: -15%;
+        margin-bottom: 40%;
+    }
 }
