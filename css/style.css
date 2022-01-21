@@ -233,10 +233,9 @@ a {
 }
 
 .second_block_Kalinin{
-    margin-top: 10%;
     opacity: 100%;
-    transform: translateX(-100%);
-
+    transform: translateX(-150%);
+    width: 50%;
 }
 
 .second_block_Kalinin._active{
@@ -245,15 +244,14 @@ a {
     transition: all 0.8s;
 }
 .stan_spec{
+    margin-top: 5%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .second_block_step{
     width: 35%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .stan_spec__title{
@@ -730,6 +728,8 @@ a {
 }
 .contacts_form{
  /*   width: 540px; */
+
+    width: 50%;
     padding: 10%;
     background-color: white;
     display: flex;
@@ -848,7 +848,6 @@ a {
 .present_img{
  /*   width: 730px; */
     height: 480px;
-    margin-left: -20%;
     opacity: 0;
     transform: translateX(-100%);
     transition: all 0.8s;
@@ -1176,7 +1175,6 @@ a {
     }
 
     .stan_spec{
-        width: 100%;
         margin: 0;
         padding: 0;
         display: flex;
@@ -1437,6 +1435,7 @@ a {
 
     .contacts_form{
         padding: 5%;
+        width: 80%;
     }
 
     .form_text{
