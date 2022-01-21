@@ -345,7 +345,7 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 250px;
+    margin-top: 10%;
 
 }
 
@@ -354,8 +354,8 @@ a {
     font: 600 28px/34px Montserrat;
     color: white;
     text-align: center;
-    margin-top: -15%;
-    margin-bottom: 40%; 
+    margin-top: -25%;
+    margin-bottom: 35%; 
 }
 
 .bg{
@@ -371,6 +371,7 @@ a {
     align-items: center;
     flex-grow: 0;
     flex-shrink: 0;
+    margin-top: 15%;
     margin-left: -90%;
 }
 
@@ -407,12 +408,12 @@ a {
     width: 425px;
     z-index: 1;
     margin-left: 100%;
-    margin-top: -12%;
+    margin-top: 12%;
 }
 
 .you_can_block_2__step{
     position: absolute; 
-    margin-left: -170%;
+    margin-left: -100%;
     margin-top: 55%;
     width:425px;
     z-index: 1;
@@ -420,14 +421,14 @@ a {
 
 .you_can_block_2__step2{
     width: 425px;
-    margin-top: -75%;
+    margin-top: -83%;
     margin-left: 75%;
 }
 
 .iphone{
     align-items: center;
-    margin-left: 140%;
-    margin-top: 100%;
+    margin-left: 80%;
+    margin-top: 40%;
 }
 
 .first{
@@ -451,7 +452,7 @@ a {
     font: 600 28px/34px Montserrat;
     color: white;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 15%;
 }
 
 .wish_title_block_mobile{
@@ -742,8 +743,8 @@ a {
 .form_text{
     font: 600 20px/24px Montserrat;
     text-align: center;
-    margin-top: 50px;
-    
+    margin-top: -5%;
+    margin-bottom: 10%;
 }
 
 .form_title{
@@ -930,7 +931,7 @@ a {
         display: none;
         align-items: center;
         flex-direction: column;
-        margin-top: 250px;
+        margin-top: 10%;
     
     }
     
@@ -949,6 +950,7 @@ a {
         flex-grow: 0;
         flex-shrink: 0;
         margin-left: 0;
+
     }
     
     .you_can_block__step{
