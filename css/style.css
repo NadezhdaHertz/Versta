@@ -294,7 +294,6 @@ a {
 }
 
 .present_text{
-    margin-top: 5%;
     width: 30%;
 }
 
@@ -585,7 +584,8 @@ a {
     background: rgba(0, 0, 0, 0.05);
 }
 
-.carusel {
+
+/* .carusel {
     position: relative;
     padding: 3% 40px 5%; 
     display: flex;
@@ -594,7 +594,7 @@ a {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.arrow {
+ .arrow {
     z-index: 1;
     content: '';
     background: white;
@@ -692,8 +692,103 @@ a {
     margin-top: 50px;
     width: 8%;
     height: fit-content;
+} */
+/* commmment */
+
+
+a,
+a:visited,
+a:active,
+a:focus {
+  color: #0091d9;
+  text-decoration: none;
 }
 
+a:hover,
+a:active{
+  color: gray;
+
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #23242B;
+
+}
+
+.arrow {
+  font-size: 50px;
+  content: '';
+  background: white;
+  border-radius: 50px;
+  width: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+
+  margin: 0 10px;   
+}
+
+.items {
+  width: 60%;
+  border-radius: 30px;
+  height: 420px;
+  position: relative;
+  color: #444;
+  font-size: 30px;
+  border: 1px solid #444;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: hidden;
+
+}
+
+.item {
+  height: 420px;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  transition: all ease .6s;
+  left: 0;
+  top: 0;
+}
+
+.first_slide.act{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text_block{
+  margin-left: 50px;
+  width: 40%;
+}
+
+.gallery_text{
+    color: rgba(68, 68, 68, 1);
+    font: 600 16px/20px Montserrat;
+}
+
+.gallery_title{
+    font: 600 28px/34px Montserrat;
+    margin-top: 0;
+}
+
+.carusel_img{
+    height: 50%;    
+}
+/* slider*/
 .feedback_title_block{
     margin-top: 5%;
     margin-bottom: 3%;
@@ -825,16 +920,20 @@ a {
 
 .review{
     width: 20%;
+    display: flex;
+    flex-direction: column;
 }
 .review__title{
     font: 400 28px/34px Montserrat;
+    align-self: center;
 }
 
 .review__text{
     font: 400 18px/22px Montserrat;
 }
 
-.ava{
+.ava{  
+    align-self: center;
     border-radius: 50%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -1312,7 +1411,6 @@ a {
     }
 
     .arrow{
-        z-index: 1;
         content: '';
         background: white;
         border-radius: 12px;
