@@ -19,7 +19,7 @@
 <BODY>
 
     <div class="main_block">
-        <img class="main_logo" alt="Логотип Верста 2022" src="img/logo_white.png" />
+        <a href="#" class="logo_href"><img class="main_logo" alt="Логотип Верста 2022" src="img/logo_white.png" /></a>
         <h1 class="main_block__title _anim-items">Научись создавать
             веб страницы бесплатно
             и получи за это подарки.</h1>
@@ -29,7 +29,8 @@
             и принять участие в соревнованиях Верста-2022</p>
         <div class="buttons_block">
             <form action="#" method="GET" class="buttons">
-                <button class="main_block__button blue">Получить материалы</button>
+                <button class="main_block__button blue" onclick="document.getElementById('form').scrollIntoView()">
+                    Получить материалы</button>
             </form>
 
             <form action="#" method="GET" class="buttons">
@@ -223,8 +224,8 @@
 
     <div class="wish_title_block _anim-items">
         <img class="wish_title_bg" alt="wish_title" src="img/wish_title_bg.png" />
-        <h3 class="wish_title">Давай начнем погружение в самую креативную профессию программиста - разработчик веб
-            сайтов.
+        <h3 class="wish_title">Твоё погружение в самую креативную профессию программиста - разработчик сайтов.
+
         </h3>
     </div>
 
@@ -232,20 +233,20 @@
     <div class="wish_block">
         <div class="wish_title_block_mobile _anim-items">
             <img class="wish_title_bg" alt="wish_title" src="img/wish_title_bg.png" />
-            <h3 class="wish_title">Давай начнем погружение в самую креативную профессию программиста - разработчик веб
-                сайтов.
+            <h3 class="wish_title">Твоё погружение в самую креативную профессию программиста - разработчик сайтов.
+
             </h3>
         </div>
         <div class="block_with_ph">
             <div class="wish_block__step">
 
-                <h3 class="steps_title">
+                <h3 class="steps_title black">
                     &lt;div class="onestep">
                 </h3>
                 <p class="step_info_white">Получи учебные материалы
                     и шаблон сайта
                 </p>
-                <h3 class="steps_title">
+                <h3 class="steps_title black">
                     &lt;/div>
                 </h3>
             </div>
@@ -256,14 +257,14 @@
             <img class="wish_photo_2 _anim-items" alt="Versta 2021 photo" src="img/wish_block_photo2.png" />
 
             <div class="wish_block__step two second">
-                <h3 class="steps_title">
+                <h3 class="steps_title black">
                     &lt;div class="twostep">
                 </h3>
                 <p class="step_info_white">Научись технологиям, сверстай сайт по шаблону и пришли его на e-mail
                     versta@infotech12.ru
 
                 </p>
-                <h3 class="steps_title">
+                <h3 class="steps_title black">
                     &lt;/div>
                 </h3>
             </div>
@@ -273,11 +274,11 @@
         <div class="block_with_ph">
             <div class="wish_block__step">
 
-                <h3 class="steps_title">
+                <h3 class="steps_title black">
                     &lt;div class="threestep">
                 </h3>
                 <p class="step_info_white">Участвуй в бесплатных соревнованиях и выиграй крутые призы. </p>
-                <h3 class="steps_title">
+                <h3 class="steps_title black">
                     &lt;/div>
                 </h3>
 
@@ -290,7 +291,7 @@
     <div class="events_title_block _anim-items">
 
         <img class="events_title_bg" alt="Events title" src="img/events_title_bg.png" />
-        <h3 class="events_title">Яркие события прошедших соревнований Верста - 2021 </h3>
+        <h3 class="events_title">Яркие события прошедших соревнований</h3>
     </div>
 
     <div class="events_block">
@@ -405,7 +406,7 @@
         </div>
     </div>
 
-    <div class="form">
+    <div class="form" id="form">
         <div class="format">
             <h3 class="form_title _anim-items">Попробуем, как работает наша контактная форма :)</h3>
             <h3 class="form__steps_title">

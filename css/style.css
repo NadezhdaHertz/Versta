@@ -2,20 +2,18 @@ html{
     width: auto;
     box-sizing: border-box;
     overflow-x: hidden;
-
 }
+
 
 body{
     margin: 0;
     width: auto;
+    overflow-x: hidden;
+
 }
 
 .present_img_mobile{
     display: none;
-}
-
-a {
-
 }
 
 *{
@@ -106,7 +104,6 @@ a {
     padding-left: 5%;
 }
 
-
 .wish_title_block_mobile{
     display: none;
 }
@@ -117,7 +114,7 @@ a {
     font: 600 36px/44px Montserrat;
     color: white;
     width: 30%;
-    transform: translateX(-100%);
+    transform: translateX(-30%);
     opacity: 0;
     transition: all 0.8s;
 }
@@ -155,25 +152,25 @@ a {
     padding-right: 3%;
 }
 .main_block__button.blue:hover{
-    background-color: white;
-    color: rgba(0, 141, 210, 1);
+    background-color: #225399;
+    color: white;
     transition: all 0.4s;  
-    border-color:rgba(0, 141, 210, 1);
     border-radius: 60px;
-    border: 0.2em solid; 
+    border: none
 }
 
 .main_block__button.white:hover{
-    background-color: rgba(0, 141, 210, 1);
-    color: white;
+    background-color: #ffcf63;
+    color: #3f3f3f;
     transition: all 0.4s;
-    border-color:white;
-    border-radius: 60px;
-    border: 0.2em solid;
+    border-radius: 30px;
+    border: none;
 }
+
 .blue{
     background-color: rgba(0, 141, 210, 1);
     color: white;
+    width: 230px;
 }
 
 .white{
@@ -186,7 +183,7 @@ a {
 } 
 
 .second_title_block{
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     opacity: 0;
     transition: all 0.8s ease 0s;
     margin-top: 5%;
@@ -207,7 +204,7 @@ a {
 .second_title{
     position: absolute;
     z-index: 1;
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
     color: white;
 }
 
@@ -225,6 +222,9 @@ a {
     color: rgba(196, 196, 196, 1);
 }
 
+.steps_title.black{
+    color: rgb(146,146,146);
+}
 .step_info{
     font: 400 20px/25px "Source Code Pro";
     color: rgba(0, 0, 0, 1);
@@ -234,8 +234,9 @@ a {
 
 .second_block_Kalinin{
     opacity: 100%;
-    transform: translateX(-150%);
-    width: 50%;
+    transform: translateX(-30%);
+            height: 480px;
+
 }
 
 .second_block_Kalinin._active{
@@ -255,13 +256,13 @@ a {
 }
 
 .stan_spec__title{
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
 }
 
 .you_can_title{
     position: absolute;
     z-index: 1;
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
     color: white;
 
 }
@@ -276,7 +277,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     opacity: 0;
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     transition: all 0.8s;
 }
 
@@ -288,7 +289,7 @@ a {
 .present_title{
     position: absolute;
     z-index: 1;
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
     color: white;
 
 }
@@ -307,7 +308,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     opacity: 0;
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     transition: all 0.8s;
 }
 
@@ -325,7 +326,7 @@ a {
     align-items: center;
     flex-direction: column;
     opacity: 0;
-    transform: translateX(200%);
+    transform: translateX(30%);
     transition: all 0.8s;
     overflow: hidden;
 
@@ -350,7 +351,7 @@ a {
 
 .you_can_title_2{
     z-index: 1;
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
     color: white;
     text-align: center;
     margin-top: -25%;
@@ -385,7 +386,7 @@ a {
     align-items: center;
     flex-direction: column;
     opacity: 0;
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     transition: all 0.8s;
 }
 
@@ -448,7 +449,7 @@ a {
     color: black;
     text-align: center;
     z-index: 1;
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
     color: white;
     text-align: center;
     margin-bottom: 15%;
@@ -473,7 +474,7 @@ a {
 
 .wish_photo_2{
     opacity: 0;
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     transition: all 0.8s;
 }
 
@@ -507,7 +508,7 @@ a {
     margin-left: auto;
     margin-right: auto; 
     opacity: 0;
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     transition: all 0.8s;
 
 }
@@ -520,9 +521,9 @@ a {
 .wish_title{
     position: absolute;
     z-index: 1;
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
     color: white;
-    width: 90%;
+    width: 80%;
 /*    width: 820px; */
 }
 
@@ -537,26 +538,26 @@ a {
 }
 
 .block_with_ph{
-    padding-top: 5%;
+    padding-top: 8%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
 .wish_block__step {
-    width: 20%;
-    margin-left: 5%;
+    width: 30%;
+    margin-right: 10%;
 }
 
 .wish_block__step.second{
-    margin-left: 0;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 0;
 }
 
 .events_title_block{
     opacity: 0;
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     transition: all 0.8s;
     margin-top: 5%;
     margin-bottom: 3%;
@@ -576,7 +577,7 @@ a {
 .events_title{
     position: absolute;
     z-index: 1;
-    font: 600 21px/30px Montserrat;
+    font: 600 32px/38px Montserrat;
     color: white;
 }
 
@@ -684,7 +685,7 @@ a {
 }
 
 .gallery_title{
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
 }
 
 .text_block{
@@ -706,7 +707,7 @@ a:focus {
 
 a:hover,
 a:active{
-  color: gray;
+  color: #0091d9;
 
 }
 
@@ -721,13 +722,17 @@ a:active{
 }
 
 .arrow {
-  font-size: 50px;
-  content: '';
-  background: white;
-  border-radius: 50px;
-  width: 50px;
-  text-align: center;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* font-weight: 900; */
+    color: gray;
+    font-size: 50px;
+    content: '';
+    background: white;
+    border-radius: 50px;
+    width: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .slider {
@@ -778,15 +783,17 @@ a:active{
 .gallery_text{
     color: rgba(68, 68, 68, 1);
     font: 600 16px/20px Montserrat;
+    width: 140%;
 }
 
 .gallery_title{
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
     margin-top: 0;
 }
 
 .carusel_img{
-    height: 50%;    
+    height: 50%;  
+    margin-left: 10%;
 }
 /* slider*/
 .feedback_title_block{
@@ -799,7 +806,7 @@ a:active{
     margin-left: auto;
     margin-right: auto;
     opacity: 0;
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     transition: all 0.8s;
 }
 
@@ -811,7 +818,7 @@ a:active{
 .feedback_title{
     position: absolute;
     z-index: 1;
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
     color: white;
 }
 
@@ -845,10 +852,10 @@ a:active{
 .form_title{
     margin-top: 10%;
     margin-bottom: 10%;
-    font: 600 28px/34px Montserrat;
+        font: 600 32px/38px Montserrat;
     color: white;
     opacity: 0;
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     transition: all 0.8s;
 }
 
@@ -898,6 +905,7 @@ a:active{
     border: none;
     margin-top: 20%;
     cursor: pointer;
+    
 }
 
 .form_submit:hover{
@@ -909,6 +917,7 @@ a:active{
     border: 0.2em solid;
     transition: all 0.4s;
 }
+
 .feedback{
     display: flex;
     justify-content: center;
@@ -949,7 +958,7 @@ a:active{
  /*   width: 730px; */
     height: 480px;
     opacity: 0;
-    transform: translateX(-100%);
+        transform: translateX(-30%);
     transition: all 0.8s;
 }
 
@@ -1023,7 +1032,7 @@ a:active{
     }
     
     .stan_spec__title{
-        font: 600 28px/34px Montserrat;
+            font: 600 32px/38px Montserrat;
     }
     
     .first_step{
@@ -1036,7 +1045,7 @@ a:active{
     
     .you_can_title_2{
         z-index: 1;
-        font: 600 28px/34px Montserrat;
+            font: 600 32px/38px Montserrat;
         color: black;
         text-align: center;
         margin-top: -15%;
@@ -1091,7 +1100,7 @@ a:active{
     .you_can_title_second{
         color: black;
         z-index: 1;
-        font: 600 28px/34px Montserrat;
+            font: 600 32px/38px Montserrat;
         text-align: center;
         margin-top: -15%;
         margin-bottom: 20%;
@@ -1160,7 +1169,7 @@ a:active{
     }
 
     .main_block__title{
-        font: 600 28px/34px Montserrat;
+            font: 600 32px/38px Montserrat;
         width: 90%;
         text-align: center;
         margin: 10% auto 5%;
@@ -1175,13 +1184,15 @@ a:active{
     }
     .main_block__button{
         margin: 0;
-        width: 150px;
+        margin-bottom: 10%;
+        width: 200px;
         align-self: center;
     }
     
     .buttons_block{
         margin: 0;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
@@ -1294,7 +1305,6 @@ a:active{
         justify-content: center;
         align-items: center;
         margin-top: 10%;
-        margin-bottom: 10%;
     }
 
     .you_can_title_2{
@@ -1335,9 +1345,11 @@ a:active{
 
     .wish_title_block{
         width: 100%;
-        padding-top: 25%;
-        padding-bottom: 25%;
+        padding-top: 20%;
         transition: none;
+        background-color: #23242B;
+        margin-bottom: 10%;
+        margin-top: 20%;
     }
 
     .wish_title_block_mobile{
@@ -1348,21 +1360,21 @@ a:active{
     .wish_title{
         color:white;
         font: 600 26px/31px Montserrat;
-        width: 100%;    
+        width: 90%;    
         margin: 0;
         padding: 0;
         text-align: center;
         background-color: #23242B;
-        padding-top: 10%;   
-        padding-bottom: 10%;
+        padding: 10%;
     }
 
     .wish_block{
         margin: 0;
         padding: 0;
         padding-top: 10%;
-        padding-bottom: 10%;
+        padding-bottom: 15%;
     }
+
     .wish_block__step{
         width: 80%;
         justify-content: center;
@@ -1379,28 +1391,34 @@ a:active{
     .events_title_block{
         margin: 0;
         padding: 0;
-        margin-top: 15%;
-        padding-bottom: 45%;
+        padding-top: 15%;
+        padding-bottom: 40%;
         transition: none;
-
+        background-color: #23242B;
     }
+
     .events_title{
         top: 0;
         display: flex;
         font: 600 26px/31px Montserrat;
-        width: 100%;
-        color: black;
+        width: 80%;
+        color: white;
         text-align: center;
         margin: 0;
         padding: 0;
+        margin-top: 15%;
     }
 
     .events_block{
         margin: 0;
         padding: 0;
         top: 0;
+     
     }
 
+    .slider-container{
+    padding-bottom: 10%;
+}
     .carusel{
         padding: 5% 1% 5%;
         
@@ -1432,6 +1450,7 @@ a:active{
 
     .items{
         width: 80%;
+        height: 420px;
     }
 
     .text_block{
@@ -1451,7 +1470,7 @@ a:active{
 
     .gallery_text{
         font: 600 16px/18px Montserrat;
-        
+        width: 100%;
     }
 
     .present_title_block{
@@ -1459,6 +1478,7 @@ a:active{
         padding: 0;
         margin-top: 15%;
         padding-bottom: 10%;
+        transition: none;
 
     }
     .present_title{
@@ -1467,6 +1487,7 @@ a:active{
         font: 600 26px/31px Montserrat;
         margin: 0;
         padding: 0;
+        transition: none;
     }
 
     .present_title_bg{
@@ -1528,7 +1549,8 @@ a:active{
         align-items: center;
     }
 
-    .review{
+    .review{   
+        margin-bottom: 20%;
         width: 80%;
         align-items:center;
         justify-content: center;
@@ -1541,13 +1563,14 @@ a:active{
     }
 
     .contacts_form{
-        padding: 5%;
+        padding: 10%;
         width: 80%;
     }
 
     .form_text{
         font: 600 16px/18px Montserrat;
         width: 100%;
+        padding-top: 5%;
     }
 
     .input{
@@ -1560,8 +1583,11 @@ a:active{
         display: flex;
         align-items: center;
         font: 700 14px/16px Montserrat;
+
         height: 40px;
         padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-left: 0;
     }
 
@@ -1571,6 +1597,7 @@ a:active{
 
     .format{
         width: 80%;
+        
     }
 
     .footer{
@@ -1596,5 +1623,57 @@ a:active{
     .scrollTop{
     left: -2000%;
 }
+
+    .main_logo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
+@media screen and (max-width: 380px) {
+
+    .wish_title_block{
+        margin-top: 55%;
+
+    }
+
+    .wish_title{
+        padding-bottom: 20%;
+        margin-bottom: 35%;
+    }
+    
+    .wish_block{
+        margin-top: 0%;
+    }
+
+    .footer{
+        padding-top: 5%;
+        background-color: #23242B;
+    }
+
+    .item{
+        height: 440px;
+    }
+
+    .items{
+        height: 440px;
+    }
+
+    .present_title_block{
+        margin-top: 20%;
+        margin-bottom: 5%;    
+    }
+
+    .present_img_mobile{
+        margin: 10%;
+    }
+
+
+}
+
+@media screen and (min-width: 1150px) {
+    .gallery_text{
+        mwidth: 150%;
+}
+}
