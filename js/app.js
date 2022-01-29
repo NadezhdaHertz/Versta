@@ -49,31 +49,6 @@ function run() {
     }
     var i = 1;
 
-    /*     prev.addEventListener('click', () => {
-           if (first_slide.classList.value == 'first_slide slide act') {
-               first_slide.classList.remove('act');
-               second_slide.classList.add('act');
-               console.log(1)
-           }
-           else {
-               first_slide.classList.add('act');
-               second_slide.classList.remove('act');
-               console.log(2)
-           }
-       })
-   
-       next.addEventListener('click', () => {
-           if (first_slide.classList.value == 'first_slide slide act') {
-               first_slide.classList.remove('act');
-               second_slide.classList.add('act');
-               console.log(3)
-           }
-           else {
-               first_slide.classList.add('act');
-               second_slide.classList.remove('act');
-               console.log(4)
-           }
-       }) */
     animOnScroll();
 
     jQuery(document).ready(function ($) {
@@ -95,7 +70,6 @@ function run() {
 
         //появление
         function show_scrollTop() {
-            console.log('test');
             ($(window).scrollTop() > 330) ? $scrollTop.fadeIn(700) : $scrollTop.fadeOut(700);
         }
         $(window).scroll(function () {
@@ -146,7 +120,6 @@ function run() {
 
     }
     function burgerSliderL() {
-        console.log(step);
         if (step == (slider.length - 1)) {
             step = 1;
         } else {
@@ -156,7 +129,6 @@ function run() {
                 step = (step + 2);
             }
         }
-        console.log(step);
         let div = document.createElement('div');
         div = slider[step];
         div.classList.add('item');
@@ -169,7 +141,6 @@ function run() {
         } else {
             step = (step - 1);
         }
-        console.log(step);
         offset = 1;
     }
 
@@ -192,7 +163,6 @@ function run() {
     }
 
     function burgerSliderR() {
-        console.log(step);
         if (step == 0) {
             step = (slider.length - 2);
         } else {
@@ -202,7 +172,6 @@ function run() {
                 step = (step - 2);
             }
         }
-        console.log(step);
         let offset = -1;
         let div = document.createElement('div');
         div = slider[step];
@@ -215,7 +184,6 @@ function run() {
         } else {
             step = (step + 1);
         }
-        console.log(step);
         offset = 1;
     }
 
@@ -244,6 +212,22 @@ function run() {
     rightArrow.onclick = right;
 
     /* comment */
+
+    /*   $("#get_button").on("click", "a", function (event) {
+           event.preventDefault();
+           var id = $(this).attr("href"),
+               top = $(id).offset().top;
+           $("body,html").animate({ scrollTop: top }, 1500);
+       }); */
+
+    jQuery('#get_button').click(function () {
+        jQuery.scrollTo('#contact_form', 1500);
+    });
+
+    jQuery('#know_button').click(function () {
+        jQuery.scrollTo('#second_block', 1000);
+    });
+
 }
 
 
